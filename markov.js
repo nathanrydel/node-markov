@@ -59,7 +59,7 @@ class MarkovMachine {
     const markovStory = [currentWord];
 
     while (currentWord !== null) {
-      let nextWord = _.sample(this.chains[currentWord]);  // Runtime!
+      let nextWord = _.sample(this.chains[currentWord]);
       markovStory.push(nextWord);
       currentWord = nextWord;
     }
