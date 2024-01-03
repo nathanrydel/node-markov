@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1704243761566" clover="3.2.0">
-  <project timestamp="1704243761566" name="All files">
-    <metrics statements="19" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2" elements="26" coveredelements="18" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
-    <file name="markov.js" path="/home/nathanrydel/rithm/exercises/Week_6/node-markov/markov.js">
-      <metrics statements="19" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="2"/>
+<coverage generated="1704246040992" clover="3.2.0">
+  <project timestamp="1704246040993" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="28" coveredelements="28" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="markov.js" path="/home/matt/rithm/exercises/node-markov/markov.js">
+      <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="12" count="2" type="stmt"/>
-      <line num="13" count="2" type="stmt"/>
-      <line num="32" count="2" type="stmt"/>
-      <line num="38" count="2" type="stmt"/>
-      <line num="39" count="11" type="stmt"/>
-      <line num="40" count="11" type="cond" truecount="2" falsecount="0"/>
-      <line num="43" count="11" type="cond" truecount="2" falsecount="0"/>
-      <line num="44" count="1" type="stmt"/>
-      <line num="46" count="10" type="stmt"/>
-      <line num="50" count="2" type="stmt"/>
-      <line num="58" count="0" type="stmt"/>
-      <line num="59" count="0" type="stmt"/>
-      <line num="61" count="0" type="stmt"/>
-      <line num="62" count="0" type="stmt"/>
-      <line num="63" count="0" type="stmt"/>
-      <line num="64" count="0" type="stmt"/>
-      <line num="67" count="0" type="stmt"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="13" count="5" type="stmt"/>
+      <line num="32" count="5" type="stmt"/>
+      <line num="38" count="5" type="stmt"/>
+      <line num="39" count="23" type="stmt"/>
+      <line num="40" count="23" type="cond" truecount="2" falsecount="0"/>
+      <line num="43" count="23" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="2" type="stmt"/>
+      <line num="46" count="21" type="stmt"/>
+      <line num="50" count="5" type="stmt"/>
+      <line num="58" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="59" count="3" type="stmt"/>
+      <line num="61" count="3" type="stmt"/>
+      <line num="62" count="11" type="stmt"/>
+      <line num="63" count="11" type="stmt"/>
+      <line num="64" count="11" type="stmt"/>
+      <line num="67" count="3" type="stmt"/>
       <line num="71" count="1" type="stmt"/>
     </file>
   </project>
