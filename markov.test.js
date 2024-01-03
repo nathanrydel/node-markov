@@ -16,6 +16,18 @@ describe("Markov Machine Tests", function () {
     );
   });
 
+  test("getChains test with duplicate words", function () {
+    let machine = new MarkovMachine("the cat in the hat");
+
+    expect(machine.chains).toEqual({
+      the: ['cat', 'hat'],
+      cat: ['in'],
+      in: ['the'],
+      hat: [null]
+    });
+  })
+    ;
+
   // test("getText test", function () {
 
   // });
