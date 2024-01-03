@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1704243425606" clover="3.2.0">
+  <project timestamp="1704243425610" name="All files">
+    <metrics statements="19" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="2" elements="26" coveredelements="16" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
+    <file name="markov.js" path="/home/nathanrydel/rithm/exercises/Week_6/node-markov/markov.js">
+      <metrics statements="19" coveredstatements="11" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="2"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="39" count="6" type="stmt"/>
+      <line num="40" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="43" count="6" type="cond" truecount="1" falsecount="1"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="46" count="6" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="58" count="0" type="stmt"/>
+      <line num="59" count="0" type="stmt"/>
+      <line num="61" count="0" type="stmt"/>
+      <line num="62" count="0" type="stmt"/>
+      <line num="63" count="0" type="stmt"/>
+      <line num="64" count="0" type="stmt"/>
+      <line num="67" count="0" type="stmt"/>
+      <line num="71" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
