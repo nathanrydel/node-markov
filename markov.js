@@ -55,16 +55,16 @@ class MarkovMachine {
    *  until it hits a null choice. */
 
   getText() {
-      let currentWord = this.words[0];  // Add handling for undefined
-      const markovStory = [currentWord];
+    let currentWord = this.words[0] || null;
+    const markovStory = [currentWord];
 
-      while (currentWord !== null) {
-        let nextWord = _.sample(this.chains[currentWord]);  // Runtime!
-        markovStory.push(nextWord);
-        currentWord = nextWord;
-      }
+    while (currentWord !== null) {
+      let nextWord = _.sample(this.chains[currentWord]);  // Runtime!
+      markovStory.push(nextWord);
+      currentWord = nextWord;
+    }
 
-      return markovStory.join(' ').trim();
+    return markovStory.join(' ').trim();
   }
 }
 
